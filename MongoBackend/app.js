@@ -42,6 +42,6 @@ app.post('/saveEmployee', async(req,res) => {
 app.post('/validateEmployee', async(req,res) => {
     const {email,password}=req.body
 })
-app.listen(5000,()=>{
+app.listen(172.31.12.134:5000,()=>{
     console.log("Server Started");
 })
